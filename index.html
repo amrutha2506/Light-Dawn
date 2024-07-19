@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Weebsite - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/logo1.png">
+        <script src="https://kit.fontawesome.com/2c3e2f37ef.js" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo1.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Fresher</p>
+                    <h1>Hi, I'm <span>Buddharaju Amrutha</span> <br>from Visakhapatnam</h1>
+                </div>
+            </div>
+        </div>
+        <!------------about--------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/background.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm a passionate software engineer with a strong background in software development and a knack for solving complex problems.
+                            Armed with a Bachelor’s degree in Technology and a proven track record in programming, system design, and project management, I'm driven by curiosity to create efficient, user-friendly solutions.
+                             I thrive in collaborative, fast-paced environments and look forward to contributing to impactful projects that shape the future of technology.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Soft Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div> 
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML/CSS</span><br>Designing Frontend Interfaces</li>
+                                <li><span>C,C++,PYTHON</span><br>Technical Skills</li>
+                                <li><span>NoSQL</span><br>Databases</li>
+                                <li><span>SCRUM</span><br>Agile Methodologies</li>
+                                <li><span>PowerBI</span><br>Data Analytics Tools</li>
+                                <li><span>Kali Linux,Rigid Bot</span><br>Cybersecurity Tools</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Problem Solving</span><br></li>
+                                <li><span>Critical Thinking</span><br></li>
+                                <li><span>Communication Skills</span><br></li>
+                                <li><span>Team Work</span><br></li>
+                                <li><span>Flexible Work</span><br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021 - Present</span><br>Bachelor of Technology of Computer Science and Engineering<br>Gayatri Vidya Parishad College of Engineering(A)<br><span>CGPA : 8.25</span></li>
+                                <li><span>2019 - 2021</span><br>Intermediate<br>Sri Viswa Junior Intermediate College<br><span>Percentage : 90.2%</span></li>
+                                <li><span>2019</span><br>Schooling<br>Sri Chaitanya Techno School<br><span>Percentage : 90%</span></li>
+                            </ul>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------services----------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>I'm a passionate software engineer with a strong background in software development 
+                        and a knack for solving complex problems.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>CyberSecurity</h2>
+                        <p>I'm passionate about CyberSecurity with a decent background in Ethical Hacking 
+                        and a knack for pursuing new technologies.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Data Analytics</h2>
+                        <p>I'm a graduate with a basic Knowledge in Data Analytics 
+                        and a knack for pursuing newer methods in this Field Of Technology.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-sketch'></i>
+                        <h2>Software Management</h2>
+                        <p>I'm Trained with objective of managing different system using 
+                            my intellectual skills and different Agile Methodologies .</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!----------portfolio---------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Works</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work.png">
+                        <div class="layer">
+                            <h3>KeyLoggers Using Python</h3>
+                            <p>keyloggers in monitoring suspicious activities and gathering evidence in a corporate environment.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>    
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work1.png">
+                        <div class="layer">
+                            <h3>Zomato Clone Using HTML and CSS</h3>
+                            <p>Clonning Zomato-A Food Delivery Application of Home,Login and Registration Pages.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>    
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work2.png">
+                        <div class="layer">
+                            <h3>Allura - E-Commerce Platform</h3>
+                            <p>A Clothing E-Commerce Website with Interactive Features.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>    
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+<!-------------contact------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> amruthabuddharaju2506@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> +91 8333939638</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/ZOHO_RESUME.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Amrutha. Made with <i class="fa-solid fa-heart"></i> By me <i class="fa-solid fa-paw"></i></p>
+            </div>
+        </div>
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px"; 
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwdmsEqj80tJXoviAr6FZeWYR8F7_OqtoC3B9u2mo-l0vMWKCUc6f_Fb5qZiJ_0crTUFQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Thank you for your Interest"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    </body>
+</html>
